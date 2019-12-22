@@ -22,7 +22,7 @@ exports.getId= D=>{
 }
 
 exports.syncReader= D=>{
-    throw Error('sync not supported')
+    return "" 
 }
 exports.reader = D=>{
     return new Promise((r,j)=>{
