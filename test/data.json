@@ -1,1 +1,1 @@
-{"name":"LiSA2","oneNode":{"name":"testNode"}}
+{"name":"LiSA2","hello":"abc","oneNode":{"name":"testNode"},"abc":"a","c":"b"}

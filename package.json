@@ -12,7 +12,7 @@
     "lisa.utils": "^1.1.0"
   },
   "devDependencies": {
-    "lisa.sync": "^1.1.0"
+    "lisa.sync": "^1.1.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

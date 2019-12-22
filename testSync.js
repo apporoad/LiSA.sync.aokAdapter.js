@@ -10,14 +10,18 @@ data.set({ name : "LiSA1" , gender : "girl"})
 
 data.sync(()=>{
     return {
-        name : "LiSA2"
+        name : "LiSA2",
+        hello : "abc"
     }
 })
+
+console.log(data.getSync())
 
 //you can call sync 
 data.sync(data=>{
     data.oneNode = { name : "testNode"}
     data.abc= "a"
+    data.c="b"
 })
 
 data.get().then(d=>{
@@ -25,4 +29,4 @@ data.get().then(d=>{
 })
 
 // //stop sync
-data.stop()
+//data.stop()
